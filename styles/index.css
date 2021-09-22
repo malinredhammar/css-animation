@@ -41,8 +41,9 @@ img {
     animation-fill-mode: none;
 }
 @keyframes imgZoom {
-    from {transform: scale(1) rotate(0deg);}
-    to {transform: scale(1.1) rotate(15deg);}
+    0% {transform: scale(1) rotate(0deg);}
+    50% {transform: scale(1.1) rotate(365deg);}
+    100% {transform: scale(1) rotate(0deg);}
 }
 
 img:hover {
